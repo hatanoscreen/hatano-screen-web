@@ -1,0 +1,211 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    text-decoration: none;
+}
+
+.logoSubtext {
+    font-family: var(--font-family-base);
+    font-size: 0.65rem;
+    color: #999;
+    letter-spacing: 0.08em;
+    margin-top: 4px;
+}
+
+.stainlessWrapper {
+    position: relative;
+    display: inline-flex;
+    -webkit-mask-image: url('/assets/logo.png');
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-image: url('/assets/logo.png');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.35));
+}
+
+.stainlessGradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        repeating-linear-gradient(to bottom, transparent, transparent 1px, rgba(0, 0, 0, 0.02) 2px),
+        linear-gradient(135deg, #5c6066 0%, #797e85 50%, #5c6066 100%);
+}
+
+.hiddenImg {
+    height: 36px;
+    width: auto;
+    visibility: hidden;
+}
+
+.logoText {
+    font-family: var(--font-family-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    letter-spacing: 0.05em;
+}
+
+.desktopNav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navList {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    position: relative;
+    transition: color var(--transition-speed);
+}
+
+.navLink:hover {
+    color: var(--color-accent);
+}
+
+.navLink::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: width var(--transition-speed);
+}
+
+.navLink:hover::after {
+    width: 100%;
+}
+
+.langToggle {
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-primary);
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all var(--transition-speed);
+}
+
+.langToggle:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.langToggleMobile {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed var(--color-border);
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.mobileToggle {
+    display: none;
+    color: var(--color-primary);
+}
+
+/* Mobile Nav Styles */
+.mobileNavOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1100;
+}
+
+.mobileNavPane {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: var(--color-bg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileNavHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.mobileNavList {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+.mobileNavList a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.mobileContact {
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+    .desktopNav {
+        display: none;
+    }
+
+    .mobileToggle {
+        display: flex;
+    }
+}

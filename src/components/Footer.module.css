@@ -1,0 +1,113 @@
+.footer {
+    background-color: var(--color-primary);
+    color: white;
+    padding-top: 64px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 48px;
+}
+
+.companyInfo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.logoSubtext {
+    font-family: var(--font-family-base);
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+}
+
+.stainlessWrapper {
+    position: relative;
+    display: inline-flex;
+    -webkit-mask-image: url('/assets/logo.png');
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: left center;
+    mask-image: url('/assets/logo.png');
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: left center;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.5));
+}
+
+.stainlessGradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        repeating-linear-gradient(to bottom, transparent, transparent 1px, rgba(0, 0, 0, 0.02) 2px),
+        linear-gradient(135deg, #bdc1c7 0%, #dee1e6 50%, #bdc1c7 100%);
+}
+
+.hiddenImg {
+    height: 48px;
+    width: auto;
+    visibility: hidden;
+}
+
+.address {
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+}
+
+.footerLinksWrapper {
+    display: flex;
+    gap: 4rem;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerLinks a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    transition: color var(--transition-speed);
+}
+
+.footerLinks a:hover {
+    color: var(--color-accent);
+}
+
+.bottomBar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+    .footerLinksWrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

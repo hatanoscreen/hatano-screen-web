@@ -1,0 +1,344 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+    /* pull up behind nav */
+    padding-top: 80px;
+}
+
+.heroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.heroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    /* Simple, elegant classic dark overlay */
+    z-index: -1;
+}
+
+.heroContent {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.heroTextContainer {
+    max-width: 900px;
+}
+
+.heroHeadline {
+    font-family: var(--font-family-serif);
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.15em;
+    color: white;
+}
+
+.heroSubtext {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.95);
+    letter-spacing: 0.03em;
+}
+
+.desktopOnly {
+    display: inline;
+}
+
+.heroActions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.heroOutlineBtn {
+    border-color: rgba(255, 255, 255, 0.6);
+    color: white;
+}
+
+.heroOutlineBtn:hover {
+    background-color: white;
+    color: var(--color-primary);
+}
+
+/* Philosophy */
+.philosophyContainer {
+    max-width: 800px;
+    text-align: center;
+}
+
+.philosophyCatch {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    letter-spacing: 0.05em;
+}
+
+.philosophyText {
+    font-size: 1.05rem;
+    line-height: 2;
+    color: var(--color-text);
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* Service Grid */
+.serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.centerBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.strengthsSection {
+    background-color: var(--color-bg);
+}
+
+.strengthsContainer {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.strengthsTextWrapper {
+    flex: 1;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.strengthsCatch {
+    font-family: var(--font-family-serif);
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    letter-spacing: 0.1em;
+}
+
+.strengthsDesc {
+    color: var(--color-text);
+    line-height: 2;
+}
+
+.strengthsContent {
+    flex: 1.2;
+    padding: 4rem 3rem;
+    background: white;
+}
+
+.strengthsList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.strengthsList li {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.25rem;
+    color: var(--color-text);
+    letter-spacing: 0.03em;
+}
+
+.strengthsList li strong {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-accent);
+}
+
+/* Company */
+.companyContainer {
+    max-width: 1000px;
+}
+
+.companyOverviewFlex {
+    display: flex;
+    gap: 3rem;
+    align-items: stretch;
+}
+
+.companyImageWrapper {
+    flex: 1;
+}
+
+.companyBuildingImg {
+    width: 100%;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+}
+
+.companyTableWrapper {
+    flex: 1.5;
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.companyTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.companyTable th,
+.companyTable td {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    text-align: left;
+}
+
+.companyTable tr:last-child th,
+.companyTable tr:last-child td {
+    border-bottom: none;
+}
+
+.companyTable th {
+    width: 25%;
+    background-color: var(--color-bg-alt);
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+/* Bottom CTA */
+.bottomCtaSection {
+    padding-bottom: 96px;
+}
+
+.ctaCardWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 0 24px;
+}
+
+.ctaCard {
+    flex: 1;
+    padding: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid var(--color-border);
+    transition: border-color var(--transition-speed);
+}
+
+.ctaCard:hover {
+    border-color: var(--color-accent);
+}
+
+.recruitBg {
+    background-color: transparent;
+}
+
+.contactBg {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.ctaCard h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: inherit;
+}
+
+.contactBg h3 {
+    color: var(--color-primary);
+}
+
+.ctaCard p {
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    flex: 1;
+    color: inherit;
+    opacity: 0.9;
+}
+
+.ctaBtn {
+    margin-top: auto;
+}
+
+.recruitBg .ctaBtn {
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .heroHeadline {
+        font-size: 2.5rem;
+    }
+
+    .desktopOnly {
+        display: none;
+    }
+
+    .strengthsContainer {
+        flex-direction: column;
+    }
+
+    .strengthsTextWrapper {
+        padding: 3rem 2rem;
+    }
+
+    .strengthsContent {
+        padding: 3rem 2rem;
+    }
+
+    .strengthsList li {
+        font-size: 1.1rem;
+    }
+
+    .companyTable th,
+    .companyTable td {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .companyTable th {
+        padding-bottom: 0.25rem;
+        border-bottom: none;
+    }
+
+    .companyOverviewFlex {
+        flex-direction: column;
+    }
+
+    .ctaCardWrapper {
+        flex-direction: column;
+    }
+
+    .ctaCard {
+        padding: 2.5rem 1.5rem;
+    }
+}

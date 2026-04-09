@@ -1,0 +1,303 @@
+{
+    "common": {
+        "companyName": "Hatano Screen Printing Co., Ltd."
+    },
+    "nav": {
+        "top": "TOP",
+        "service": "Services",
+        "company": "Company Profile",
+        "recruit": "Careers",
+        "contact": "Contact Us",
+        "menu": "Menu"
+    },
+    "footer": {
+        "address": "307 Tsurugicho, Nakamura-ku, Nagoya, Aichi 453-0842, Japan",
+        "privacyPolicy": "Privacy Policy"
+    },
+    "home": {
+        "hero": {
+            "headline": "Shaping ideas.<br />Adding value to the city.",
+            "subtext": "From silk screen printing, large format inkjet, cutting,<br />to sign & display fabrication, we provide comprehensive services.",
+            "contactBtn": "Contact Us",
+            "serviceBtn": "View Services",
+            "recruitBtn": "Careers"
+        },
+        "philosophy": {
+            "title": "Management Philosophy",
+            "subtitle": "Philosophy",
+            "catch": "\"Sharing the joy of creation together\"",
+            "text": "Cherishing this philosophy, we walk together with our clients, partners, local communities, and colleagues, sharing the value of craftsmanship.<br /><br />By facing each task with sincerity and continuously refining our skills, we deliver quality that exceeds expectations."
+        },
+        "services": {
+            "title": "Services",
+            "subtitle": "Services",
+            "silk": {
+                "title": "Silk Screen Printing",
+                "desc": "Suitable for printing that requires spot color expression and high durability. We provide highly accurate printing tailored to your needs."
+            },
+            "inkjet": {
+                "title": "Large Format Inkjet Printing",
+                "desc": "We produce large format prints that combine high visibility and appeal, such as posters, panels, and storefront decorations."
+            },
+            "cutting": {
+                "title": "Cutting",
+                "desc": "We accommodate cutting processes precisely tailored to various applications such as window signs and vehicle markings."
+            },
+            "signs": {
+                "title": "Sign & Display Fabrication",
+                "desc": "Comprehensive support from planning to production and installation. We shape sign spaces that bring out the charm of your store or facility."
+            },
+            "btn": "View Detailed Services"
+        },
+        "strengths": {
+            "title": "Our Strengths",
+            "subtitle": "Strengths",
+            "catch": "Uncompromising beauty and<br />consistently meticulous craftsmanship.",
+            "desc": "From planning to installation, we pursue high precision and sincerity in everything we do.<br />Combining the latest technology with skilled craftsmanship to shape your vision.",
+            "list1": "<strong>Comprehensive support</strong> from printing to sign installation",
+            "list2": "<strong>Flexible and polite responses</strong> typical of a small elite team",
+            "list3": "<strong>Trust and track record</strong> built closely with the community",
+            "list4": "<strong>Unwavering commitment</strong> to beautiful finishes and quality"
+        },
+        "company": {
+            "title": "Company Profile",
+            "subtitle": "Company",
+            "btn": "View Company Profile & Access",
+            "table": {
+                "name": "Company Name",
+                "founded": "Founded",
+                "address": "Address",
+                "phone": "Phone",
+                "fax": "Fax",
+                "email": "Email",
+                "employees": "Employees"
+            }
+        },
+        "cta": {
+            "recruit": {
+                "title": "Careers",
+                "desc": "Inexperienced applicants welcome. We welcome those who are interested in manufacturing and value meticulous work. Grow your career with us.",
+                "btn": "Inquire about recruitment"
+            },
+            "contact": {
+                "title": "Contact Us",
+                "desc": "Please feel free to contact us regarding production consultations, quotes, or recruitment inquiries.<br />We accept inquiries by phone or via our form.",
+                "btn": "Go to Contact Form"
+            }
+        }
+    },
+    "service": {
+        "title": "Services",
+        "subtitle": "Services",
+        "silk": {
+            "title": "Silk Screen Printing",
+            "desc": "Ideal for printing requiring detailed color expression (such as PANTONE or DIC) or high durability outdoors.<br />Direct printing is possible not only on paper but on a wide variety of materials including plastic, metal, glass, and fabric.<br />With our years of experience and skill, we provide highly accurate and beautiful finishes."
+        },
+        "inkjet": {
+            "title": "Large Format Inkjet Printing",
+            "desc": "From posters, exhibition panels, and storefront wall decorations to banners, we accept large format output from a single piece.<br />Using high-quality inkjet printers for expressive color reproduction, we quickly deliver products with high visibility and appeal."
+        },
+        "cutting": {
+            "title": "Cutting",
+            "desc": "A processing technology that accurately cuts films and sheets along a specified shape.<br />Widely used for store window signs, vehicle markings, frosted glass films in offices, and informational displays.<br />With our precise cutting technology, we create beautiful letters and logos down to the finest detail."
+        },
+        "signs": {
+            "title": "Sign & Display / Signboard Fabrication",
+            "desc": "We offer total support from the planning and production of signs that maximize the charm of your space to on-site installation.<br />We propose optimal materials and structures tailored to your application and environment, including wall-mounted signs, standalone signs, cut-out letters, and illuminated ones.<br />Through installations combining safety and design, we shape your vision."
+        },
+        "flow": {
+            "title": "Workflow",
+            "subtitle": "Workflow",
+            "step1": {
+                "title": "Inquiries & Consultations",
+                "desc": "Please let us know your thoughts and requests by phone or through our form."
+            },
+            "step2": {
+                "title": "Meetings & Site Surveys",
+                "desc": "We will visit the site if necessary to check the installation environment and conduct detailed hearings."
+            },
+            "step3": {
+                "title": "Proposals & Estimates",
+                "desc": "We will select the optimal specifications and materials, and submit a production plan and estimate."
+            },
+            "step4": {
+                "title": "Production & Processing",
+                "desc": "At our own factory, skilled craftsmen carefully produce and process each item one by one."
+            },
+            "step5": {
+                "title": "Installation & Delivery",
+                "desc": "We perform installations placing safety first, and hand over the product after your confirmation."
+            }
+        },
+        "cta": {
+            "title": "Looking to consult about production?",
+            "desc": "Please feel free to contact us with any quote requests or questions.",
+            "btn": "Click here to inquire"
+        }
+    },
+    "companyPage": {
+        "title": "Company Profile",
+        "subtitle": "Company Profile",
+        "intro": {
+            "title": "Message",
+            "subtitle": "Message",
+            "text": "Since our founding in November 1973, Hatano Screen Printing Co., Ltd. has been based in Nagoya, handling silk screen printing, large format inkjet output, cutting, and the production and installation of signs & displays.<br /><br />While cherishing the technology and experience cultivated over many years, we constantly pursue new expressions and value that suit the times.<br />We want to be a partner who not only produces but shapes your thoughts and connects them to communicative results.",
+            "ceo": "Representative: Shinya Hatano"
+        },
+        "philosophy": {
+            "title": "Philosophy",
+            "subtitle": "Philosophy",
+            "catch": "\"Sharing the joy of creation together\"",
+            "text": "Cherishing this philosophy, we walk together with our clients, partner companies, local communities, and colleagues, sharing the value of craftsmanship.<br />By facing each task with sincerity and continuously refining our skills and sensibilities, we deliver expression and quality that exceed expectations.<br /><br />As a community-based company, we spare no effort in consistently meeting our customers' trust with reliable quality."
+        },
+        "overview": {
+            "title": "Company Overview",
+            "subtitle": "Overview",
+            "table": {
+                "name": "Company Name",
+                "nameVal": "Hatano Screen Printing Co., Ltd.",
+                "ceo": "Representative Director",
+                "ceoVal": "Shinya Hatano",
+                "founded": "Founded",
+                "foundedVal": "November 1973",
+                "address": "Address",
+                "phone": "Phone",
+                "fax": "Fax",
+                "email": "Email",
+                "employees": "Employees",
+                "employeesVal": "4 Employees",
+                "business": "Business Activities",
+                "businessVal": "Silk screen printing, large format inkjet printing, cutting, production and installation of signs & displays"
+            }
+        },
+        "access": {
+            "title": "Access",
+            "subtitle": "Access"
+        }
+    },
+    "recruit": {
+        "title": "Recruit",
+        "subtitle": "Recruit",
+        "intro": {
+            "title": "Share the joy of craftsmanship together.",
+            "subtitle": "Join Us",
+            "text": "At Hatano Screen Printing, we carry out a wide range of tasks from printing to the production and installation of signs and displays.<br />Experience is not strictly required. We welcome those who have the motivation to learn new skills and value careful handwork.<br />The things we shape with our hands reach someone as part of the city. Why not do such rewarding work together?"
+        },
+        "requirements": {
+            "title": "Requirements",
+            "subtitle": "Requirements",
+            "req1": {
+                "title": "Inexperienced are Welcome",
+                "desc": "Experienced staff will guide you carefully. It's the perfect environment for those who want to acquire a profession from scratch."
+            },
+            "req2": {
+                "title": "Those who love making things",
+                "desc": "Those who find joy in shaping things with their own hands. We are waiting for those interested in printing and making signboards."
+            },
+            "req3": {
+                "title": "Those capable of careful work",
+                "desc": "To shape the thoughts of our customers, we welcome those who can pay attention to details and work steadily and carefully."
+            },
+            "req4": {
+                "title": "Looking to work stably in the area",
+                "desc": "There are no transfers. We support those who want to settle down in Nagoya and work while continuously polishing their skills."
+            }
+        },
+        "details": {
+            "title": "Job Details",
+            "subtitle": "Job Details",
+            "table": {
+                "role": "Role",
+                "roleVal": "Production/Processing Staff (Printing, Signboards, Signs)",
+                "empType": "Employment Type",
+                "empTypeVal": "Full-time / Part-time (per your preference)",
+                "work": "Job Description",
+                "workVal": "Silk screen printing operations, inkjet router operations, cutting work, sign/signboard production, and on-site assistance etc.",
+                "qualifications": "Qualifications",
+                "qualificationsVal": "Educational background/experience not required. Inexperienced applicants welcome. Regular driver's license required (AT allowed)",
+                "location": "Location",
+                "locationVal": "307 Tsurugicho, Nakamura Ward, Nagoya City, Aichi (No transfers)",
+                "hours": "Working Hours",
+                "hoursVal": "8:30 ～ 17:30 (with breaks)",
+                "holidays": "Holidays",
+                "holidaysVal": "2 days off per week (Sat/Sun/Holidays *according to company calendar), Summer, Year-end/New Year, Golden Week holidays",
+                "salary": "Salary Structure",
+                "salaryVal": "To be determined through interview, taking experience and ability into consideration.",
+                "benefits": "Benefits",
+                "benefitsVal": "Transportation expenses paid, full social insurance, salary increases/bonuses (depending on performance)"
+            }
+        },
+        "apply": {
+            "title": "How to Apply",
+            "text": "First, please feel free to contact us via the inquiry form, phone, or email.<br />We will contact you regarding interviews, etc.<br />Consultations such as \"I just want to hear a story\" or \"I would like a workplace tour\" are also welcome.",
+            "phoneText": "Applications & Consultations by Phone",
+            "phoneHours": "Hours: Weekdays 9:00 - 17:00",
+            "btn": "Go to Application Form"
+        }
+    },
+    "contactPage": {
+        "title": "Contact Us",
+        "subtitle": "Contact Us",
+        "intro": "Please feel free to contact us for various consultations, quote requests, recruitment inquiries, etc.<br />If you are in a hurry, we also accept inquiries by phone.",
+        "direct": {
+            "phone": "Inquiries by Phone",
+            "hours": "Hours: 9:00 - 17:00 (Excl. weekends/holidays)",
+            "mail": "Inquiries by Email"
+        },
+        "form": {
+            "title": "Inquiry Form",
+            "typeLabel": "Inquiry Type",
+            "req": "Required",
+            "opt": "Optional",
+            "typePlaceholder": "Please select",
+            "typeOpts": {
+                "business": "Production Consultations",
+                "estimate": "Quote Requests",
+                "recruit": "Recruitment Applications/Questions",
+                "other": "Other Inquiries"
+            },
+            "nameLabel": "Name",
+            "namePlaceholder": "John Doe",
+            "companyLabel": "Company Name",
+            "companyPlaceholder": "Please enter your company name",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "example@domain.com",
+            "phoneLabel": "Phone Number",
+            "phonePlaceholder": "090-0000-0000",
+            "msgLabel": "Inquiry Details",
+            "msgPlaceholder": "Please specifically fill out your inquiry details",
+            "privacyConsent": "I agree to the",
+            "submitBtn": "Confirm Submissions",
+            "alert": "Since this is for demonstration purposes, transmission processing will not be performed."
+        }
+    },
+    "privacyPage": {
+        "title": "Privacy Policy",
+        "subtitle": "Privacy Policy",
+        "intro": "Hatano Screen Printing Co., Ltd. (hereinafter \"the Company\") establishes the following privacy policy, constructs a mechanism for protecting personal information, and promotes the protection of personal information by ensuring all employees thoroughly recognize the importance of and engage in protecting personal information.",
+        "sec1": {
+            "title": "1. Management of Personal Information",
+            "text": "To keep customers' personal information accurate and up-to-date and to prevent unauthorized access, loss, damage, alteration, or leakage, the Company takes necessary measures such as maintaining a security system and developing a management framework, strictly managing personal information."
+        },
+        "sec2": {
+            "title": "2. Purpose of Use of Personal Information",
+            "text": "Personal information entrusted to us by customers will be used to send emails or materials as communications from the Company, guidance on our business operations, or answers to questions."
+        },
+        "sec3": {
+            "title": "3. Prohibition of Disclosure and Provision of Personal Information to Third Parties",
+            "text": "The Company properly manages personal information entrusted to us by customers and will not disclose personal information to a third party unless one of the following applies:",
+            "list1": "With the customer's consent",
+            "list2": "When disclosure is necessary based on laws and regulations"
+        },
+        "sec4": {
+            "title": "4. Inquiry of the Principal",
+            "text": "If a customer wishes to inquire about, correct, or delete their own personal information, we will respond after confirming their identity."
+        },
+        "contact": {
+            "title": "Contact Desk",
+            "company": "Hatano Screen Printing Co., Ltd.",
+            "tel": "TEL: 052-412-5003",
+            "email": "Email: hatano@mac.email.ne.jp"
+        }
+    }
+}
