@@ -10,6 +10,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 // Layout
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -25,6 +26,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
