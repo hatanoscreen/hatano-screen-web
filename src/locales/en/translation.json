@@ -5,6 +5,7 @@
     "nav": {
         "top": "TOP",
         "service": "Services",
+        "works": "Works",
         "company": "Company Profile",
         "recruit": "Careers",
         "contact": "Contact Us",
@@ -300,6 +301,38 @@
             "company": "Hatano Screen Printing Co., Ltd.",
             "tel": "TEL: 052-412-5003",
             "email": "Email: hatano@mac.email.ne.jp"
+        }
+    },
+    "worksPage": {
+        "title": "Works",
+        "subtitle": "Works",
+        "intro": "Here are some of the production and installation projects we have handled.<br />From planning to production and installation, we provide comprehensive support to shape our clients' visions.",
+        "items": [
+            {
+                "title": "Storefront Window Signs & Projecting Signs",
+                "category": "Sign & Display",
+                "desc": "We handled the production and installation of window signs and projecting signs for a newly opened store. The brand colors were faithfully reproduced."
+            },
+            {
+                "title": "Large Decorative Panels for Exhibition",
+                "category": "Large Format Inkjet Output",
+                "desc": "We output and installed large panels requiring high color development for exhibition booth decoration. The finish is beautiful without noticeable seams."
+            },
+            {
+                "title": "Company Vehicle Wrapping",
+                "category": "Cutting",
+                "desc": "Car marking for sales vehicles. Precise cutting and careful installation were carried out to fit beautifully even on curved surfaces."
+            },
+            {
+                "title": "Outdoor Information Signs",
+                "category": "Silk Screen Printing",
+                "desc": "Outdoor information signs requiring high weather resistance. Produced with silk screen printing that is highly resistant to fading over the long term."
+            }
+        ],
+        "cta": {
+            "title": "Questions or Consultations about our Works",
+            "desc": "Please feel free to ask us questions like 'Can you make something like this?'.",
+            "btn": "Click here to inquire"
         }
     }
 }

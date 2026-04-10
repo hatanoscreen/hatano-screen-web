@@ -7,6 +7,7 @@ import Company from './pages/Company';
 import Recruit from './pages/Recruit';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Works from './pages/Works';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -35,6 +36,7 @@ function App() {
           <Route path="/recruit" element={<Recruit />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/works" element={<Works />} />
         </Routes>
       </Layout>
     </Router>
