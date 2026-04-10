@@ -5,6 +5,10 @@ import SectionTitle from '../components/SectionTitle';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import { Printer, Image as ImageIcon, Scissors, Megaphone } from 'lucide-react';
+import serviceSilkImg from '../assets/service_silk_screen.png';
+import serviceInkjetImg from '../assets/service_inkjet.png';
+import serviceCuttingImg from '../assets/service_cutting.png';
+import serviceSignboardImg from '../assets/service_signboard.png';
 
 const Service = () => {
     const { t } = useTranslation();
@@ -28,7 +32,7 @@ const Service = () => {
                         <p dangerouslySetInnerHTML={{ __html: t('service.silk.desc') }} />
                     </div>
                     <div className={styles.serviceImage}>
-                        <img src="/assets/service_silk_screen.png" alt={t('service.silk.title')} className={styles.serviceImg} />
+                        <img src={serviceSilkImg} alt={t('service.silk.title')} className={styles.serviceImg} />
                     </div>
                 </section>
 
@@ -40,7 +44,7 @@ const Service = () => {
                         <p dangerouslySetInnerHTML={{ __html: t('service.inkjet.desc') }} />
                     </div>
                     <div className={styles.serviceImage}>
-                        <img src="/assets/service_inkjet.png" alt={t('service.inkjet.title')} className={styles.serviceImg} />
+                        <img src={serviceInkjetImg} alt={t('service.inkjet.title')} className={styles.serviceImg} />
                     </div>
                 </section>
 
@@ -52,7 +56,7 @@ const Service = () => {
                         <p dangerouslySetInnerHTML={{ __html: t('service.cutting.desc') }} />
                     </div>
                     <div className={styles.serviceImage}>
-                        <img src="/assets/service_cutting.png" alt={t('service.cutting.title')} className={styles.serviceImg} />
+                        <img src={serviceCuttingImg} alt={t('service.cutting.title')} className={styles.serviceImg} />
                     </div>
                 </section>
 
@@ -64,7 +68,7 @@ const Service = () => {
                         <p dangerouslySetInnerHTML={{ __html: t('service.signs.desc') }} />
                     </div>
                     <div className={styles.serviceImage}>
-                        <img src="/assets/service_signboard.png" alt={t('service.signs.title')} className={styles.serviceImg} />
+                        <img src={serviceSignboardImg} alt={t('service.signs.title')} className={styles.serviceImg} />
                     </div>
                 </section>
 

@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import styles from './Footer.module.css';
+import logoImg from '../assets/logo.png';
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -12,7 +13,7 @@ const Footer = () => {
                     <div className={styles.logoBox}>
                         <div className={styles.stainlessWrapper}>
                             <div className={styles.stainlessGradient}></div>
-                            <img src="/assets/logo.png" alt={t('common.companyName')} className={styles.hiddenImg} />
+                            <img src={logoImg} alt={t('common.companyName')} className={styles.hiddenImg} />
                         </div>
                         <span className={styles.logoSubtext}>Hatano Screen Printing Co., Ltd.</span>
                     </div>

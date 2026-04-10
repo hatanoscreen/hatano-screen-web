@@ -5,6 +5,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Button from './Button';
+import logoImg from '../assets/logo.png';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ const Header = () => {
                 <Link to="/" className={styles.logo}>
                     <div className={styles.stainlessWrapper}>
                         <div className={styles.stainlessGradient}></div>
-                        <img src="/assets/logo.png" alt={t('common.companyName')} className={styles.hiddenImg} />
+                        <img src={logoImg} alt={t('common.companyName')} className={styles.hiddenImg} />
                     </div>
                     <span className={styles.logoSubtext}>Hatano Screen Printing Co., Ltd.</span>
                 </Link>

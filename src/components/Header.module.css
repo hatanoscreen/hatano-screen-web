@@ -41,11 +41,11 @@
 .stainlessWrapper {
     position: relative;
     display: inline-flex;
-    -webkit-mask-image: url('/assets/logo.png');
+    -webkit-mask-image: url('../assets/logo.png');
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    mask-image: url('/assets/logo.png');
+    mask-image: url('../assets/logo.png');
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;

@@ -2,6 +2,8 @@
 import styles from './Company.module.css';
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../components/SectionTitle';
+import ceoImg from '../assets/ceo.jpg';
+import buildingNewImg from '../assets/building_new.jpg';
 
 const Company = () => {
     const { t } = useTranslation();
@@ -25,7 +27,7 @@ const Company = () => {
                         <p className={styles.ceoName}>{t('companyPage.intro.ceo')}</p>
                     </div>
                     <div className={styles.introImageWrapper}>
-                        <img src="/assets/ceo.jpg" alt={t('companyPage.intro.title')} className={styles.introImg} />
+                        <img src={ceoImg} alt={t('companyPage.intro.title')} className={styles.introImg} />
                     </div>
                 </section>
 
@@ -43,7 +45,7 @@ const Company = () => {
                     <SectionTitle title={t('companyPage.overview.title')} subtitle={t('companyPage.overview.subtitle')} center />
                     <div className={styles.infoFlex}>
                         <div className={styles.infoImageWrapper}>
-                            <img src="/assets/building_new.jpg" alt="Exterior" className={styles.infoBuildingImg} />
+                            <img src={buildingNewImg} alt="Exterior" className={styles.infoBuildingImg} />
                         </div>
                         <div className={styles.tableWrapper}>
                             <table className={styles.infoTable}>

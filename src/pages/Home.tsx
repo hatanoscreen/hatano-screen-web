@@ -6,6 +6,8 @@ import Button from '../components/Button';
 import SectionTitle from '../components/SectionTitle';
 import Card from '../components/Card';
 import { ChevronRight, CheckCircle2 } from 'lucide-react';
+import heroVideo from '../assets/hatano-heroback.mp4';
+import buildingNewImg from '../assets/building_new.jpg';
 
 const Home = () => {
     const { t, i18n } = useTranslation();
@@ -15,7 +17,7 @@ const Home = () => {
             <section className={styles.hero}>
                 <video
                     className={styles.heroVideo}
-                    src="/assets/hatano-heroback.mp4"
+                    src={heroVideo}
                     autoPlay
                     loop
                     muted
@@ -117,7 +119,7 @@ const Home = () => {
                     <SectionTitle title={t('home.company.title')} subtitle={t('home.company.subtitle')} center />
                     <div className={styles.companyOverviewFlex}>
                         <div className={styles.companyImageWrapper}>
-                            <img src="/assets/building_new.jpg" alt="Exterior" className={styles.companyBuildingImg} />
+                            <img src={buildingNewImg} alt="Exterior" className={styles.companyBuildingImg} />
                         </div>
                         <div className={styles.companyTableWrapper}>
                             <table className={styles.companyTable}>
