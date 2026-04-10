@@ -299,7 +299,20 @@
     }
 
     .heroSubtext {
-        font-size: 1rem;
+        font-size: 0.75rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .heroActions {
+        gap: 0.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .heroPrimaryBtn,
+    .heroOutlineBtn {
+        font-size: 0.7rem !important;
+        padding: 8px 16px !important;
     }
 
     .desktopOnly {
