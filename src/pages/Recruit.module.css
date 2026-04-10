@@ -120,24 +120,27 @@
 .contactMethods {
     display: flex;
     justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
     margin-bottom: 3rem;
 }
 
-.phoneBox {
+.contactBox {
     background: white;
     padding: 2.5rem;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
+    flex: 1;
     min-width: 320px;
     border-top: 4px solid var(--color-accent);
 }
 
-.phoneBox p {
+.contactBox p {
     color: var(--color-text-light);
     font-size: 0.95rem;
 }
 
-.phoneNumber {
+.contactValue {
     font-size: 2.8rem;
     font-family: var(--font-family-heading);
     font-weight: 700;
@@ -146,7 +149,13 @@
     letter-spacing: 0.05em;
 }
 
-.phoneHours {
+.emailValue {
+    font-size: 1.6rem;
+    font-family: var(--font-family-base);
+    word-break: break-all;
+}
+
+.contactSubtext {
     font-size: 0.85rem !important;
 }
 
@@ -181,7 +190,11 @@
         padding: 2.5rem 1.5rem;
     }
 
-    .phoneNumber {
+    .contactValue {
         font-size: 2rem;
+    }
+
+    .emailValue {
+        font-size: 1.3rem;
     }
 }

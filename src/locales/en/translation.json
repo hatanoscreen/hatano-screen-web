@@ -232,6 +232,8 @@
             "text": "First, please feel free to contact us via the inquiry form, phone, or email.<br />We will contact you regarding interviews, etc.<br />Consultations such as \"I just want to hear a story\" or \"I would like a workplace tour\" are also welcome.",
             "phoneText": "Applications & Consultations by Phone",
             "phoneHours": "Hours: Weekdays 9:00 - 17:00",
+            "emailText": "Applications & Consultations by Email",
+            "emailSubtext": "Accepted 24/7 (we will reply in order)",
             "btn": "Go to Application Form"
         }
     },

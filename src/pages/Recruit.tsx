@@ -82,10 +82,15 @@ const Recruit = () => {
                         <SectionTitle title={t('recruit.apply.title')} center />
                         <p className={styles.applyText} dangerouslySetInnerHTML={{ __html: t('recruit.apply.text') }} />
                         <div className={styles.contactMethods}>
-                            <div className={styles.phoneBox}>
+                            <div className={styles.contactBox}>
                                 <p>{t('recruit.apply.phoneText')}</p>
-                                <div className={styles.phoneNumber}>052-412-5003</div>
-                                <p className={styles.phoneHours}>{t('recruit.apply.phoneHours')}</p>
+                                <div className={styles.contactValue}>052-412-5003</div>
+                                <p className={styles.contactSubtext}>{t('recruit.apply.phoneHours')}</p>
+                            </div>
+                            <div className={styles.contactBox}>
+                                <p>{t('recruit.apply.emailText')}</p>
+                                <div className={`${styles.contactValue} ${styles.emailValue}`}>hatano@mac.email.ne.jp</div>
+                                <p className={styles.contactSubtext}>{t('recruit.apply.emailSubtext')}</p>
                             </div>
                         </div>
                         <Link to="/contact">
