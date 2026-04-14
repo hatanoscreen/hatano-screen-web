@@ -195,13 +195,17 @@
 }
 
 @media (max-width: 768px) {
+    .pageHeader {
+        padding: 100px 0 50px;
+    }
+
     .pageTitle {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         letter-spacing: 0.05em;
     }
 
     .pageSubtitle {
-        font-size: 0.72rem;
+        font-size: 0.65rem;
         letter-spacing: 0.15em;
     }
 
