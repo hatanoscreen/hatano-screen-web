@@ -162,12 +162,14 @@
 }
 
 @media (max-width: 768px) {
-    .pageHeader {
-        padding: 100px 0 60px;
+    .pageTitle {
+        font-size: 1.6rem;
+        letter-spacing: 0.05em;
     }
 
-    .pageTitle {
-        font-size: 2rem;
+    .pageSubtitle {
+        font-size: 0.72rem;
+        letter-spacing: 0.15em;
     }
 
     .worksGrid {
