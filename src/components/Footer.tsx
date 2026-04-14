@@ -29,8 +29,8 @@ const Footer = () => {
                     <ul className={styles.footerLinks}>
                         <li><Link to="/">{t('nav.top')}</Link></li>
                         <li><Link to="/service">{t('nav.service')}</Link></li>
-                        <li><Link to="/works">{t('nav.works')}</Link></li>
                         <li><Link to="/company">{t('nav.company')}</Link></li>
+                        <li><Link to="/works">{t('nav.works')}</Link></li>
                     </ul>
                     <ul className={styles.footerLinks}>
                         <li><Link to="/recruit">{t('nav.recruit')}</Link></li>

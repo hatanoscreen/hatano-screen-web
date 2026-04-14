@@ -30,8 +30,8 @@ const Header = () => {
                     <ul className={styles.navList}>
                         <li><Link to="/" className={styles.navLink}>{t('nav.top')}</Link></li>
                         <li><Link to="/service" className={styles.navLink}>{t('nav.service')}</Link></li>
-                        <li><Link to="/works" className={styles.navLink}>{t('nav.works')}</Link></li>
                         <li><Link to="/company" className={styles.navLink}>{t('nav.company')}</Link></li>
+                        <li><Link to="/works" className={styles.navLink}>{t('nav.works')}</Link></li>
                         <li><Link to="/recruit" className={styles.navLink}>{t('nav.recruit')}</Link></li>
                     </ul>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
@@ -67,8 +67,8 @@ const Header = () => {
                                 </li>
                                 <li><Link to="/" onClick={toggleMenu}>{t('nav.top')}</Link></li>
                                 <li><Link to="/service" onClick={toggleMenu}>{t('nav.service')}</Link></li>
-                                <li><Link to="/works" onClick={toggleMenu}>{t('nav.works')}</Link></li>
                                 <li><Link to="/company" onClick={toggleMenu}>{t('nav.company')}</Link></li>
+                                <li><Link to="/works" onClick={toggleMenu}>{t('nav.works')}</Link></li>
                                 <li><Link to="/recruit" onClick={toggleMenu}>{t('nav.recruit')}</Link></li>
                                 <li className={styles.mobileContact}>
                                     <Link to="/contact" onClick={toggleMenu}>
