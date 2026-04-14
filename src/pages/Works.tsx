@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Works.module.css';
 import Button from '../components/Button';
+import worksHeroImage from '../assets/works_hero.png';
 
 const Works = () => {
     const { t } = useTranslation();
@@ -26,6 +27,16 @@ const Works = () => {
             <div className="container section-padding">
                 <div className={styles.introSection}>
                     <p dangerouslySetInnerHTML={{ __html: t('worksPage.intro') }} />
+                </div>
+
+                <div className={styles.heroSection}>
+                    <div className={styles.heroImageWrapper}>
+                        <img src={worksHeroImage} alt="Works Showcase" className={styles.heroImage} />
+                        <span className={styles.imageCaption}>※イメージ画像です</span>
+                    </div>
+                    <div className={styles.extraDescSection}>
+                        <p>{t('worksPage.extraDesc')}</p>
+                    </div>
                 </div>
 
                 <div className={styles.worksGrid}>
