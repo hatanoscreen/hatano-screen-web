@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import styles from './Works.module.css';
 import Button from '../components/Button';
 import worksHeroImage from '../assets/works_hero.png';
+import worksItem1 from '../assets/works_item_1.png';
+import worksItem2 from '../assets/works_item_2.png';
+import worksItem3 from '../assets/works_item_3.png';
+import worksItem4 from '../assets/works_item_4.png';
+
+const worksImages = [worksItem1, worksItem2, worksItem3, worksItem4];
 
 const Works = () => {
     const { t } = useTranslation();
@@ -42,8 +48,9 @@ const Works = () => {
                 <div className={styles.worksGrid}>
                     {Array.isArray(worksItems) && worksItems.map((item, index) => (
                         <div key={index} className={styles.workItem}>
-                            <div className={styles.imagePlaceholder}>
-                                <div className={styles.placeholderText}>Works Image {index + 1}<br />(Dummy)</div>
+                            <div className={styles.itemImageWrapper}>
+                                <img src={worksImages[index]} alt={item.title} className={styles.itemImage} />
+                                <span className={styles.imageCaption}>※イメージ画像です</span>
                             </div>
                             <div className={styles.workContent}>
                                 <span className={styles.categoryBadge}>{item.category}</span>
