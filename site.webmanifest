@@ -1,0 +1,15 @@
+{
+  "name": "ハタノスクリーン印刷株式会社",
+  "short_name": "ハタノスクリーン",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0A1628",
+  "background_color": "#0A1628",
+  "display": "standalone",
+  "start_url": "/"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--
+    このサイトは HashRouter（#/ ルーティング）を使用しているため、
+    検索エンジンがハッシュベースのURLをインデックスできない場合があります。
+    メインURLのみを記載しています。
+    将来的に BrowserRouter へ移行した場合は、各ページURLを追加してください。
+  -->
+  <url>
+    <loc>https://hatanoscreen.com/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
